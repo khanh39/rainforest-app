@@ -1,0 +1,13 @@
+<p>This is the partial for both the index and show pages</p>
+
+
+
+<div class="product">
+v
+  <h3><%= link_to "Name: #{product.name}", product %></h3>
+<h3>Description: <%= product.description %><br />
+<h3>Price in Dollars: <%= product.formatted_price%>
+<%= link_to 'Show Product info',  product %>
+</div>
+
+<!-- link_to - takes two arguments 1) text of link, 2) either a url or object.  -->

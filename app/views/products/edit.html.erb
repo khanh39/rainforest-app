@@ -1,0 +1,9 @@
+<h1>Edit Product </h1>
+
+  <%= link_to 'Main Products Page', products_path %>
+</h1>
+
+  <%= @product.name %></br>
+  <%= @product.description %>
+
+<%= render 'form', product: @product %>
